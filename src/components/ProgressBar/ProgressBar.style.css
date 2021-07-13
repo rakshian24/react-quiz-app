@@ -1,0 +1,20 @@
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 4px;
+  position: relative;
+  height: px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* Google Chrome */
+progress::-webkit-progress-value {
+  background: #5cb85c;
+}
+progress::-webkit-progress-bar {
+  background: #e9ecef;
+}
+/* Mozilla Firefox */
+progress::-moz-progress-bar {
+  background: #5cb85c;
+}

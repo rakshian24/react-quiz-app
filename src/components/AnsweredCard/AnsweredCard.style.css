@@ -1,0 +1,9 @@
+.answered-card {
+  padding: 1rem 1rem;
+  background-color: #ffffff;
+  border-bottom: 1.5px solid grey;
+}
+
+.answered-card:last-child {
+  border-bottom: none;
+}

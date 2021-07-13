@@ -1,0 +1,21 @@
+.answer-card {
+  display: flex;
+  border-bottom: 1.5px solid grey;
+  background-color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+}
+
+.answer-card:last-child {
+  border-bottom: none;
+}
+
+.radio-btn {
+  background-color: #f7f8fa;
+  padding: 1rem 0.25rem;
+  border: 1.75px solid #f8e9eb;
+}
+
+.answer {
+  padding: 1rem 0.25rem;
+}
